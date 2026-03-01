@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pink Glow Hair Studio</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:white;
+color:#333;
+}
+
+header{
+background:white;
+padding:20px 0;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+}
+
+header h2{
+color:#e75480;
+}
+
+nav a{
+color:#555;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#e75480;
+}
+
+.hero{
+height:90vh;
+background:linear-gradient(to right,#f8e1ec,#ffffff);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+color:#e75480;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+color:#555;
+}
+
+.btn{
+background:#e75480;
+color:white;
+padding:15px 30px;
+border:none;
+border-radius:30px;
+font-weight:bold;
+cursor:pointer;
+text-decoration:none;
+}
+
+.btn:hover{
+background:#c7436c;
+}
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:30px;
+width:250px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#e75480;
+}
+
+.contact{
+background:#f8e1ec;
+}
+
+footer{
+background:#e75480;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:32px;
+}
+.services{
+flex-direction:column;
+align-items:center;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h2>Pink Glow Hair Studio</h2>
+<nav>
+<a href="#anasayfa">Ana Sayfa</a>
+<a href="#hizmetler">Hizmetler</a>
+<a href="#iletisim">İletişim</a>
+</nav>
+</header>
+
+<div class="hero" id="anasayfa">
+<h1>Zarafetin Yeni Adresi</h1>
+<p>Profesyonel saç tasarımı ve özel bakım hizmetleri</p>
+<a href="#iletisim" class="btn">Randevu Al</a>
+</div>
+
+<section id="hizmetler">
+<h2 style="margin-bottom:40px; color:#e75480;">Hizmetlerimiz</h2>
+<div class="services">
+<div class="card">
+<h3>Saç Kesimi</h3>
+<p>Yüz tipinize özel modern tasarımlar.</p>
+</div>
+<div class="card">
+<h3>Saç Boyama</h3>
+<p>Trend renkler ve sağlıklı uygulamalar.</p>
+</div>
+<div class="card">
+<h3>Keratin Bakım</h3>
+<p>Onarıcı ve güçlendirici bakım.</p>
+</div>
+<div class="card">
+<h3>Gelin Saçı</h3>
+<p>Özel günler için kusursuz stil.</p>
+</div>
+</div>
+</section>
+
+<section class="contact" id="iletisim">
+<h2 style="margin-bottom:20px;">İletişim</h2>
+<p>📍 Kocaeli / Türkiye</p>
+<p>📞 0555 000 00 00</p>
+<p>📸 Instagram: @pinkglowstudio</p>
+<br>
+<a href="#" class="btn">WhatsApp ile Randevu</a>
+</section>
+
+<footer>
+© 2026 Pink Glow Hair Studio
+</footer>
+
+</body>
+</html>
